@@ -1,0 +1,2 @@
+in this project, i have emulated the instruction set of the 8080 intel processor with the exception of an interrupt mechanic and input output instructions, to avoid the electronic details. the program to be run is loaded from a text file 
+where each line is a byte of data. the program is loaded at the beginning of memory, each byte is fetched, based on the operand the instruction length is generated and then executed in the execute function loop.
